@@ -1,0 +1,36 @@
+body {
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ font-size: 1.4rem;
+}
+
+.container {
+  margin-top: 10%;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container input {
+  border: 3px solid hsl(204, 6%, 83%);
+  border-radius: 20px;
+  width: 300px;
+  height: 30px;
+  align-content: center;
+  padding: 4px;
+}
+
+
+.content input {
+  flex: 1;
+}
+.container button {
+  border: none;
+  padding: 4px;
+  width: 80px;
+  height: 40px;
+  border-radius: 18px;
+  background: hsl(208, 60%, 76%);
+  color: white;
+}
